@@ -9,8 +9,6 @@ new_average
 
 write.table(new_average,"final_average")
 
-write.table(new_average,"final_average",sep=",")
-
 newdata <- subset(data,grepl("[iI]",data$Name))
 newdata
 
